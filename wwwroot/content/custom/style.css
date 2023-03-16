@@ -1,0 +1,150 @@
+﻿header{
+background:  #333141;
+}
+.navbar {
+background: #915e4d;
+}
+.bg-info {
+background: #333141 !important;
+}
+.btn{
+background: #333141;
+border-color: #333141;
+}
+.btn:hover{
+background: #645d92;
+}
+.btn-outline-secondary{
+color: #dadada;
+}
+.h5 {
+color: #915e4d;
+}
+#topcartlink .cart-qty, .wishlist-qty {
+background: #915e4d;
+}
+.user-panel-trigger .mdi, .shopping-links .nav-link .mdi{
+color: #915e4d;
+}
+#small-searchterms {
+background : transparent;
+border-color: #915e4d;
+color: #fff;
+}
+.search-box-select {
+background : transparent;
+border-color: #915e4d;
+}
+.search-box-select:hover {
+border-color: #915e4d;
+}
+.search-box-button {
+background: #915e4d;
+border-color:#915e4d;
+}
+.headBottom {
+    /* The image used */
+    background-image: url("Vector.png");
+    margin-top: 20px;
+    min-height: 50px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+@media (max-width: 991px) {
+    .search-box-button {
+        color: #fff;
+    }
+    .header-logo img {
+        max-height: 100px !important;
+    }
+    .headBottom {
+    /* The image used */
+    background-image: url("Vector.png");
+    margin-top: 20px;
+    min-height: 50px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+    }
+    .mobile-menu-trigger .mdi, .user-panel-trigger .mdi, .shopping-links .nav-link .mdi
+    {
+        color : #333141 !important;
+    }
+    #topcartlink .cart-qty, .wishlist-qty 
+    {
+        background : #333141;
+        }
+}
+.search-box-button {
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+.mainNav a {
+    color: #fff;
+}
+.nav-item :hover {
+    color: #FFCC00;
+}
+.dropdown-menu {
+    background: #333141 !important;
+    border: 0px !important;
+    padding: 0px !important;
+}
+.rest-categories 
+{
+    background: #333141 !important;
+}
+.rest-categories a:hover
+{
+    color: #333141;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff !important;
+}
+.user-panel-head
+{
+    background: #915e4d;}
+.product-box .labels, .product-details-page .product-labels
+{/*Label Align Right*/
+    left: 80%;
+}
+@media (max-width: 575px){/*Label Align Right*/
+.product-box .labels {
+    left: 72%;
+}}
+
+.mb-1, .my-1 
+{
+    border-radius:30px;
+}
+
+.list-picture a img
+{
+    border-radius: 30px;
+}
+
+.product-box .picture img
+{
+    border-radius: 30px;
+}
+.dropdown-menu img
+{
+    max-width:300px;
+}
+.product-box.grid-box:hover .box-unvisible
+{
+    border-radius: 30px;    
+}
+.product-no-reviews .btn 
+{
+    background: #007bff40 !important;
+}
